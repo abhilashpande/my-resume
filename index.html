@@ -4,7 +4,6 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<!-- ═══ SEO ═══ -->
 <title>Abhilash Pande | Senior Data Engineer | Snowflake · AWS · PySpark · Python</title>
 <meta name="description" content="Abhilash Pande — Data Engineer with 7+ years building scalable data pipelines, cloud data platforms, and ETL/ELT systems on Snowflake, AWS & Azure. SnowPro Core Certified. Based in Pune, India. Open to new opportunities."/>
 <meta name="keywords" content="Abhilash Pande, Data Engineer, Snowflake, PySpark, AWS, Python, ETL ELT, Data Warehouse, Data Platform, Data Vault, Matillion, Terraform, CI/CD, AWS Glue, SCD2, SQL, Azure, Power BI, DBT, EPAM Systems, Yash Technologies, Pune, SnowPro Certified, Data Pipeline, Data Lakehouse, Cloud Data Engineer"/>
@@ -23,15 +22,12 @@
 <meta name="twitter:title" content="Abhilash Pande | Senior Data Engineer"/>
 <meta name="twitter:description" content="7+ years in Snowflake, PySpark, AWS, ETL/ELT. SnowPro Certified. Pune, India."/>
 
-<!-- Schema.org -->
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Abhilash Pande","alternateName":["Abhilash Pande Data Engineer","Abhilash Pande Snowflake"],"jobTitle":"Senior Data Engineer","description":"Data Engineer with 7+ years of experience in Snowflake, PySpark, Python, AWS, Terraform and cloud data platforms.","email":"abhilash.pande5@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Pune","addressRegion":"Maharashtra","addressCountry":"IN"},"url":"https://abhilashpande.dev/","sameAs":["https://www.linkedin.com/in/abhilash-pande-b9920357"],"knowsAbout":["Snowflake","PySpark","Python","AWS","Terraform","ETL","ELT","Data Vault","Data Warehouse","Matillion","SQL","Power BI","Azure","CI/CD","DBT","AWS Glue","AWS S3","Data Lakehouse","Infrastructure as Code","SCD2"],"worksFor":{"@type":"Organization","name":"EPAM Systems"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Savitribai Phule Pune University"}],"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"SnowPro Core Certification","recognizedBy":{"@type":"Organization","name":"Snowflake Inc."}},{"@type":"EducationalOccupationalCredential","name":"Microsoft Certified: Azure Fundamentals","recognizedBy":{"@type":"Organization","name":"Microsoft"}}]}
 </script>
 
-<!-- Favicon — inline SVG data URI -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e0d0b'/%3E%3Ctext x='8' y='46' font-family='Georgia%2Cserif' font-style='italic' font-weight='700' font-size='38' fill='%231a56db'%3Ea%3C/text%3E%3Ccircle cx='48' cy='18' r='7' fill='none' stroke='%231a56db' stroke-width='2.5'/%3E%3Cline x1='48' y1='11' x2='48' y2='25' stroke='%231a56db' stroke-width='2' stroke-linecap='round'/%3E%3Cline x1='41' y1='18' x2='55' y2='18' stroke='%231a56db' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230e0d0b'/%3E%3Crect x='10' y='32' width='10' height='22' rx='2' fill='%231a56db'/%3E%3Crect x='27' y='22' width='10' height='32' rx='2' fill='%233b71f5'/%3E%3Crect x='44' y='12' width='10' height='42' rx='2' fill='%231a56db'/%3E%3Cline x1='10' y1='30' x2='54' y2='10' stroke='%231a56db' stroke-width='2' stroke-linecap='round' stroke-dasharray='3 3'/%3E%3C/svg%3E"/>
 
-<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
@@ -105,12 +101,12 @@ body{background:var(--white);color:var(--ink);font-family:var(--display);-webkit
 /* ══ HERO ══ */
 #hero{
   min-height:100vh;
-  display:flex;flex-direction:column;justify-content:center;
+  display:grid;grid-template-columns:1fr 400px;gap:4rem;
+  align-items:center;
   padding:9rem 2.5rem 5rem;
   max-width:1200px;margin:0 auto;
   position:relative;
 }
-/* decorative grid lines behind hero */
 #hero::before{
   content:'';
   position:absolute;inset:0;pointer-events:none;
@@ -118,22 +114,20 @@ body{background:var(--white);color:var(--ink);font-family:var(--display);-webkit
     linear-gradient(rgba(26,86,219,.04) 1px,transparent 1px),
     linear-gradient(90deg,rgba(26,86,219,.04) 1px,transparent 1px);
   background-size:56px 56px;
-  border-radius:0;
   z-index:0;
 }
 #hero>*{position:relative;z-index:1}
 .hero-badge{margin-bottom:1.75rem}
 .hero-name{
-  font-size:clamp(3.8rem,8vw,7.5rem);font-weight:800;
+  font-size:clamp(3rem,6vw,5.5rem);font-weight:800;
   line-height:.93;letter-spacing:-.04em;color:var(--ink);
   margin-bottom:1.25rem;
-  max-width:900px;
 }
 .hero-name em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--blue)}
 .hero-role{
-  font-size:1.2rem;font-weight:400;color:var(--muted);
+  font-size:1.15rem;font-weight:400;color:var(--muted);
   margin-bottom:2rem;line-height:1.55;
-  max-width:640px;
+  max-width:560px;
 }
 .hero-role strong{color:var(--ink);font-weight:600}
 .hero-meta{
@@ -149,13 +143,53 @@ body{background:var(--white);color:var(--ink);font-family:var(--display);-webkit
   display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
   background:var(--border);border:1px solid var(--border);
   border-radius:var(--r);overflow:hidden;
-  max-width:640px;
 }
-.stat{
-  background:var(--white);padding:1.25rem 1rem;text-align:center;
-}
+.stat{background:var(--white);padding:1.25rem 1rem;text-align:center}
 .stat-n{font-size:1.8rem;font-weight:800;color:var(--ink);line-height:1}
 .stat-l{font-family:var(--mono);font-size:.62rem;color:var(--muted);margin-top:.3rem;letter-spacing:.05em;line-height:1.3}
+
+/* ── HERO PHOTO ── */
+.hero-photo-col{position:relative;display:flex;align-items:center;justify-content:center}
+.hero-photo-wrap{
+  position:relative;
+  width:340px;height:420px;
+  border-radius:20px;
+  overflow:hidden;
+  border:1px solid var(--border);
+  box-shadow:0 24px 64px rgba(26,86,219,.12),0 4px 16px rgba(0,0,0,.06);
+}
+.hero-photo-wrap img{
+  width:100%;height:100%;
+  object-fit:cover;object-position:top center;
+  display:block;
+}
+.hero-photo-wrap::after{
+  content:'';
+  position:absolute;inset:0;
+  background:linear-gradient(to top, rgba(14,13,11,.55) 0%, transparent 50%);
+  pointer-events:none;
+}
+.hero-photo-name{
+  position:absolute;bottom:1.25rem;left:1.25rem;right:1.25rem;
+  z-index:2;color:#fff;
+}
+.hero-photo-name-title{
+  font-family:var(--mono);font-size:.65rem;color:rgba(255,255,255,.7);
+  letter-spacing:.14em;text-transform:uppercase;margin-bottom:.25rem;
+}
+.hero-photo-name-text{
+  font-size:1.25rem;font-weight:800;letter-spacing:-.02em;
+}
+.hero-photo-badge{
+  position:absolute;top:-12px;right:-12px;z-index:3;
+  background:var(--white);border:1.5px solid var(--border);
+  border-radius:var(--r);padding:.55rem .9rem;
+  font-family:var(--mono);font-size:.65rem;font-weight:600;
+  box-shadow:0 4px 16px rgba(0,0,0,.1);
+  color:var(--blue);white-space:nowrap;
+  display:flex;align-items:center;gap:.4rem;
+}
+.hero-photo-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--blue);animation:pulse 2s infinite}
 
 /* ══ TICKER ══ */
 .ticker-wrap{
@@ -357,14 +391,15 @@ footer{
 
 /* ══ RESPONSIVE ══ */
 @media(max-width:900px){
-  #hero{padding-top:7rem}
+  #hero{grid-template-columns:1fr;gap:2.5rem;padding-top:7rem}
+  .hero-photo-col{display:none}
   .two-col{grid-template-columns:1fr;gap:2.5rem}
   .skills-grid{grid-template-columns:1fr 1fr}
   .certs-grid{grid-template-columns:1fr 1fr}
   .edu-grid{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr;gap:2.5rem}
   .highlight-cards{grid-template-columns:1fr}
-  .hero-stats{grid-template-columns:repeat(2,1fr);max-width:100%}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
   .nav-links{display:none}
 }
 @media(max-width:600px){
@@ -378,7 +413,6 @@ footer{
 </head>
 <body>
 
-<!-- ATS / crawler text -->
 <div class="ats" aria-hidden="false" itemscope itemtype="https://schema.org/Person">
   <span itemprop="name">Abhilash Pande</span> — <span itemprop="jobTitle">Senior Data Engineer</span>.
   Email: <span itemprop="email">abhilash.pande5@gmail.com</span>.
@@ -390,19 +424,16 @@ footer{
   Awards: Spotlight Award Positive Participator, Star Achiever at EPAM Systems.
 </div>
 
-<!-- ══ NAV ══ -->
 <nav id="topnav" role="navigation" aria-label="Main navigation">
 <a href="#hero" class="nav-brand" aria-label="Abhilash Pande — Home">
-    <svg width="120" height="36" viewBox="0 0 120 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <!-- hexagon data-node motif -->
-      <polygon points="18,4 30,11 30,25 18,32 6,25 6,11" fill="#0e0d0b" stroke="#1a56db" stroke-width="1.5"/>
-      <!-- pipeline bars inside hex -->
-      <rect x="11" y="13" width="4" height="10" rx="1" fill="#1a56db" opacity="0.9"/>
-      <rect x="16" y="16" width="4" height="7" rx="1" fill="#1a56db" opacity="0.6"/>
-      <rect x="21" y="11" width="4" height="14" rx="1" fill="#1a56db" opacity="1"/>
-      <!-- wordmark -->
-      <text x="38" y="22" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="15" fill="#0e0d0b" letter-spacing="-0.3">Abhilash</text>
-      <text x="38" y="31" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#1a56db" letter-spacing="2">PANDE · DATA</text>
+    <svg width="148" height="38" viewBox="0 0 148 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="0" y="1" width="36" height="36" rx="8" fill="#0e0d0b" stroke="#1a56db" stroke-width="1.5"/>
+      <rect x="7"  y="19" width="6" height="12" rx="1.5" fill="#1a56db"/>
+      <rect x="15" y="14" width="6" height="17" rx="1.5" fill="#3b71f5"/>
+      <rect x="23" y="8"  width="6" height="23" rx="1.5" fill="#1a56db"/>
+      <polyline points="10,18 18,13 26,7" stroke="#5b8fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <text x="44" y="18" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="15" fill="#0e0d0b" letter-spacing="-0.3">Abhilash</text>
+      <text x="44" y="30" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#1a56db" letter-spacing="2">PANDE · DATA ENG</text>
     </svg>
   </a>
   <ul class="nav-links">
@@ -418,10 +449,10 @@ footer{
   </div>
 </nav>
 
-<!-- ══ HERO ══ -->
 <main id="main">
 <section id="hero" aria-label="Introduction">
-  <div class="hero-badge"><span class="badge">Open to New Opportunities · Pune, India</span></div>
+  <div class="hero-left">
+    <div class="hero-badge"><span class="badge">Open to New Opportunities · Pune, India</span></div>
 
     <h1 class="hero-name">
       Abhilash<br/><em>Pande</em>
@@ -461,30 +492,24 @@ footer{
         <div class="stat-l">Cloud Platforms</div>
       </div>
     </div>
+  </div>
+
+  <div class="hero-photo-col" aria-hidden="true">
+    <div style="position:relative">
+      <div class="hero-photo-badge">❄️ SnowPro Certified</div>
+      <div class="hero-photo-wrap">
+        <img src="abhilash.jpeg" alt="Abhilash Pande — Senior Data Engineer based in Pune, India"/>
+        <div class="hero-photo-name">
+          <div class="hero-photo-name-title">Senior Data Engineer</div>
+          <div class="hero-photo-name-text">Abhilash Pande</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- ══ TICKER ══ -->
 <div class="ticker-wrap" aria-hidden="true">
   <div class="ticker-track" id="ticker">
-    <span class="ticker-item">Snowflake</span>
-    <span class="ticker-item">PySpark</span>
-    <span class="ticker-item">Python</span>
-    <span class="ticker-item">AWS Glue</span>
-    <span class="ticker-item">Terraform</span>
-    <span class="ticker-item">Matillion ETL</span>
-    <span class="ticker-item">Data Vault Modeling</span>
-    <span class="ticker-item">CI/CD</span>
-    <span class="ticker-item">AWS S3</span>
-    <span class="ticker-item">SQL</span>
-    <span class="ticker-item">SCD2</span>
-    <span class="ticker-item">ETL · ELT</span>
-    <span class="ticker-item">Power BI</span>
-    <span class="ticker-item">DBT</span>
-    <span class="ticker-item">Infrastructure as Code</span>
-    <span class="ticker-item">Data Lakehouse</span>
-    <span class="ticker-item">Azure Logic Apps</span>
-    <span class="ticker-item">AWS CodePipeline</span>
-    <span class="ticker-item">Data Governance</span>
     <span class="ticker-item">Snowflake</span>
     <span class="ticker-item">PySpark</span>
     <span class="ticker-item">Python</span>
@@ -507,7 +532,6 @@ footer{
   </div>
 </div>
 
-<!-- ══ ABOUT ══ -->
 <section id="about" class="section section-alt" aria-label="About">
   <div class="section-inner">
     <div class="two-col">
@@ -554,7 +578,6 @@ footer{
   </div>
 </section>
 
-<!-- ══ SKILLS ══ -->
 <section id="skills" class="section" aria-label="Technical Skills">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Technical Skills</div>
@@ -645,7 +668,6 @@ footer{
   </div>
 </section>
 
-<!-- ══ EXPERIENCE ══ -->
 <section id="experience" class="section section-alt" aria-label="Work Experience">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Career Journey</div>
@@ -653,8 +675,6 @@ footer{
     <p class="section-sub reveal" data-delay="2">7+ years shipping production data platforms for global enterprises.</p>
 
     <div class="exp-list">
-
-      <!-- EPAM -->
       <article class="exp-card reveal">
         <div class="exp-header">
           <div>
@@ -665,7 +685,6 @@ footer{
           <span class="exp-badge current">● Current</span>
         </div>
         <div class="exp-body">
-
           <div class="exp-project">
             <div class="exp-proj-label">Project: S&amp;P Global — Data Migration</div>
             <ul class="exp-bullets">
@@ -698,11 +717,9 @@ footer{
               <li>Created <strong>Python metadata drivers</strong> to capture Terraform outputs and register provisioned resources in Snowflake metadata tables.</li>
             </ul>
           </div>
-
         </div>
       </article>
 
-      <!-- YASH -->
       <article class="exp-card reveal" data-delay="1">
         <div class="exp-header">
           <div>
@@ -725,7 +742,6 @@ footer{
         </div>
       </article>
 
-      <!-- Vedension -->
       <article class="exp-card reveal" data-delay="2">
         <div class="exp-header">
           <div>
@@ -744,12 +760,10 @@ footer{
           </div>
         </div>
       </article>
-
     </div>
   </div>
 </section>
 
-<!-- ══ CERTIFICATIONS ══ -->
 <section id="certifications" class="section" aria-label="Certifications and Awards">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Credentials</div>
@@ -797,7 +811,6 @@ footer{
   </div>
 </section>
 
-<!-- ══ EDUCATION ══ -->
 <section id="education" class="section section-alt" aria-label="Education">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Academic Background</div>
@@ -829,7 +842,6 @@ footer{
   </div>
 </section>
 
-<!-- ══ CONTACT ══ -->
 <section id="contact" class="section" aria-label="Contact">
   <div class="section-inner">
     <div class="contact-grid">
@@ -873,9 +885,8 @@ footer{
 </section>
 </main>
 
-<!-- ══ FOOTER ══ -->
 <footer role="contentinfo">
-  <div class="footer-copy">© 2025 Abhilash Pande · Senior Data Engineer · Pune, India</div>
+  <div class="footer-copy">© 2026 Abhilash Pande · Senior Data Engineer · Pune, India</div>
   <div class="footer-links">
     <a href="https://www.linkedin.com/in/abhilash-pande-b9920357" target="_blank" rel="noopener">LinkedIn</a>
     <a href="mailto:abhilash.pande5@gmail.com">Email</a>
