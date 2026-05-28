@@ -4,6 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+<!-- ═══ SEO ═══ -->
 <title>Abhilash Pande | Senior Data Engineer | Snowflake · AWS · PySpark · Python</title>
 <meta name="description" content="Abhilash Pande — Data Engineer with 7+ years building scalable data pipelines, cloud data platforms, and ETL/ELT systems on Snowflake, AWS & Azure. SnowPro Core Certified. Based in Pune, India. Open to new opportunities."/>
 <meta name="keywords" content="Abhilash Pande, Data Engineer, Snowflake, PySpark, AWS, Python, ETL ELT, Data Warehouse, Data Platform, Data Vault, Matillion, Terraform, CI/CD, AWS Glue, SCD2, SQL, Azure, Power BI, DBT, EPAM Systems, Yash Technologies, Pune, SnowPro Certified, Data Pipeline, Data Lakehouse, Cloud Data Engineer"/>
@@ -22,12 +23,15 @@
 <meta name="twitter:title" content="Abhilash Pande | Senior Data Engineer"/>
 <meta name="twitter:description" content="7+ years in Snowflake, PySpark, AWS, ETL/ELT. SnowPro Certified. Pune, India."/>
 
+<!-- Schema.org -->
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Abhilash Pande","alternateName":["Abhilash Pande Data Engineer","Abhilash Pande Snowflake"],"jobTitle":"Senior Data Engineer","description":"Data Engineer with 7+ years of experience in Snowflake, PySpark, Python, AWS, Terraform and cloud data platforms.","email":"abhilash.pande5@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Pune","addressRegion":"Maharashtra","addressCountry":"IN"},"url":"https://iamabhilash.com/","sameAs":["https://www.linkedin.com/in/abhilash-pande-b9920357"],"knowsAbout":["Snowflake","PySpark","Python","AWS","Terraform","ETL","ELT","Data Vault","Data Warehouse","Matillion","SQL","Power BI","Azure","CI/CD","DBT","AWS Glue","AWS S3","Data Lakehouse","Infrastructure as Code","SCD2"],"worksFor":{"@type":"Organization","name":"EPAM Systems"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Savitribai Phule Pune University"}],"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"SnowPro Core Certification","recognizedBy":{"@type":"Organization","name":"Snowflake Inc."}},{"@type":"EducationalOccupationalCredential","name":"Microsoft Certified: Azure Fundamentals","recognizedBy":{"@type":"Organization","name":"Microsoft"}}]}
 </script>
 
+<!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230e0d0b'/%3E%3Crect x='10' y='32' width='10' height='22' rx='2' fill='%231a56db'/%3E%3Crect x='27' y='22' width='10' height='32' rx='2' fill='%233b71f5'/%3E%3Crect x='44' y='12' width='10' height='42' rx='2' fill='%231a56db'/%3E%3Cline x1='10' y1='30' x2='54' y2='10' stroke='%231a56db' stroke-width='2' stroke-linecap='round' stroke-dasharray='3 3'/%3E%3C/svg%3E"/>
 
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
@@ -285,7 +289,7 @@ body{background:var(--white);color:var(--ink);font-family:var(--display);-webkit
 }
 .exp-company{font-size:.75rem;font-weight:700;color:var(--blue);font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.3rem}
 .exp-role{font-size:1.15rem;font-weight:800;color:var(--ink);line-height:1.2}
-.exp-meta{font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-top:.4rem}
+.exp-meta{font-family:var(--mono);font-size:.7 Gilmore;color:var(--muted);margin-top:.4rem}
 .exp-badge{
   font-family:var(--mono);font-size:.65rem;font-weight:600;
   padding:.3rem .75rem;border-radius:100px;
@@ -405,7 +409,7 @@ footer{
   }
   .hero-photo-col{
     display:flex;
-    order: -1; /* Moves photo below name heading layout flow gracefully */
+    order: -1;
     margin-bottom: 1rem;
   }
   .hero-photo-wrap{
@@ -424,7 +428,22 @@ footer{
 
 @media(max-width:600px) {
   .section{padding:4rem 1.25rem}
-  #topnav{padding:.8rem 1.25rem}
+  #topnav{
+    padding:.6rem .8rem;
+  }
+  /* Optimizing the Nav bar Logo & Buttons structure specifically for small viewports */
+  .nav-brand svg {
+    width: 120px;
+    height: 32px;
+  }
+  .nav-actions {
+    gap: .4rem;
+  }
+  .nav-actions .btn {
+    padding: .4rem .6rem;
+    font-size: .7rem;
+    letter-spacing: -0.01em;
+  }
   .hero-name{font-size: 2.8rem;}
   .skills-grid{grid-template-columns:1fr}
   .certs-grid{grid-template-columns:1fr}
@@ -437,6 +456,7 @@ footer{
 </head>
 <body>
 
+<!-- ATS / crawler text -->
 <div class="ats" aria-hidden="false" itemscope itemtype="https://schema.org/Person">
   <span itemprop="name">Abhilash Pande</span> — <span itemprop="jobTitle">Senior Data Engineer</span>.
   Email: <span itemprop="email">abhilash.pande5@gmail.com</span>.
@@ -448,6 +468,7 @@ footer{
   Awards: Spotlight Award Positive Participator, Star Achiever at EPAM Systems.
 </div>
 
+<!-- ══ NAV ══ -->
 <nav id="topnav" role="navigation" aria-label="Main navigation">
 <a href="#hero" class="nav-brand" aria-label="Abhilash Pande — Home">
     <svg width="148" height="38" viewBox="0 0 148 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -457,7 +478,8 @@ footer{
       <rect x="23" y="8"  width="6" height="23" rx="1.5" fill="#1a56db"/>
       <polyline points="10,18 18,13 26,7" stroke="#5b8fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
       <text x="44" y="18" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="15" fill="#0e0d0b" letter-spacing="-0.3">Abhilash</text>
-      <text x="44" y="30" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#1a56db" letter-spacing="2">PANDE · DATA ENG</text>
+      <!-- text content string updated here -->
+      <text x="44" y="30" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#1a56db" letter-spacing="1.5">DATA ENGINEER</text>
     </svg>
   </a>
   <ul class="nav-links">
@@ -473,6 +495,7 @@ footer{
   </div>
 </nav>
 
+<!-- ══ HERO ══ -->
 <main id="main">
 <section id="hero" aria-label="Introduction">
   <div class="hero-left">
@@ -532,6 +555,7 @@ footer{
   </div>
 </section>
 
+<!-- ══ TICKER ══ -->
 <div class="ticker-wrap" aria-hidden="true">
   <div class="ticker-track" id="ticker">
     <span class="ticker-item">Snowflake</span>
@@ -556,6 +580,7 @@ footer{
   </div>
 </div>
 
+<!-- ══ ABOUT ══ -->
 <section id="about" class="section section-alt" aria-label="About">
   <div class="section-inner">
     <div class="two-col">
@@ -602,6 +627,7 @@ footer{
   </div>
 </section>
 
+<!-- ══ SKILLS ══ -->
 <section id="skills" class="section" aria-label="Technical Skills">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Technical Skills</div>
@@ -692,6 +718,7 @@ footer{
   </div>
 </section>
 
+<!-- ══ EXPERIENCE ══ -->
 <section id="experience" class="section section-alt" aria-label="Work Experience">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Career Journey</div>
@@ -699,6 +726,7 @@ footer{
     <p class="section-sub reveal" data-delay="2">7+ years shipping production data platforms for global enterprises.</p>
 
     <div class="exp-list">
+      <!-- EPAM -->
       <article class="exp-card reveal">
         <div class="exp-header">
           <div>
@@ -744,6 +772,7 @@ footer{
         </div>
       </article>
 
+      <!-- YASH -->
       <article class="exp-card reveal" data-delay="1">
         <div class="exp-header">
           <div>
@@ -766,6 +795,7 @@ footer{
         </div>
       </article>
 
+      <!-- Vedension -->
       <article class="exp-card reveal" data-delay="2">
         <div class="exp-header">
           <div>
@@ -788,6 +818,7 @@ footer{
   </div>
 </section>
 
+<!-- ══ CERTIFICATIONS ══ -->
 <section id="certifications" class="section" aria-label="Certifications and Awards">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Credentials</div>
@@ -835,6 +866,7 @@ footer{
   </div>
 </section>
 
+<!-- ══ EDUCATION ══ -->
 <section id="education" class="section section-alt" aria-label="Education">
   <div class="section-inner">
     <div class="section-eyebrow reveal">Academic Background</div>
@@ -866,6 +898,7 @@ footer{
   </div>
 </section>
 
+<!-- ══ CONTACT ══ -->
 <section id="contact" class="section" aria-label="Contact">
   <div class="section-inner">
     <div class="contact-grid">
@@ -909,6 +942,7 @@ footer{
 </section>
 </main>
 
+<!-- ══ FOOTER ══ -->
 <footer role="contentinfo">
   <div class="footer-copy">© 2026 Abhilash Pande · Senior Data Engineer · Pune, India</div>
   <div class="footer-links">
